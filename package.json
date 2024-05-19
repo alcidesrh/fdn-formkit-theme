@@ -1,6 +1,6 @@
 {
   "name": "@formkit/fdn-theme",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "author": "Alcides <alcidesrh@gmail.com>",
   "license": "MIT",
   "main": "dist/theme.js",
