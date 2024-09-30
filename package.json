@@ -1,6 +1,6 @@
 {
-  "name": "formkit-theme-fdnv2",
-  "version": "1.0.4",
+  "name": "fdn-theme",
+  "version": "1.0.1",
   "author": "Alcides <alcidesrh@gmail.com>",
   "license": "MIT",
   "main": "dist/theme.js",
@@ -21,7 +21,8 @@
     "preview": "vite preview",
     "release": "pnpm build && npx publint && npx bumpp && pnpm publish",
     "test": "vitest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "create": "npx formkit@latest theme --theme=dist/theme.mjs"
   },
   "files": [
     "dist"
