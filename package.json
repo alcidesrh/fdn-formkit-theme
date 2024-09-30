@@ -1,6 +1,6 @@
 {
   "name": "fdn-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Alcides <alcidesrh@gmail.com>",
   "license": "MIT",
   "main": "dist/theme.js",
