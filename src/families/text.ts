@@ -1,5 +1,8 @@
 export default {
   // color, date, datetime-local, email, file, month, number, password, search, tel, text, time, url, week
+  outer: `
+    min-w-[15em]
+  `,
   wrapper: `
     flex
     flex-col
@@ -44,26 +47,9 @@ export default {
     dark:group-data-[invalid]:ring-red-$baseColorShade(-1,*)
   `,
   input: `
-    ${"" /* base styles */}
-    text-$scale
-    text-$colorTemperature-700
-    min-w-0
-    min-h-[1.5em] ${"" /* fix for iOS which collapses empty date-style inputs (date, month, week, etc) */}
-    grow
-    outline-none
-    bg-transparent
-    selection:bg-$accentColor-100
-    placeholder:text-$colorTemperature-400
-    group-data-[disabled]:!cursor-not-allowed
-
-    ${"" /* dark mode styles */}
-    dark:placeholder-$colorTemperature-400/50
-    dark:text-$colorTemperature-300
-
-    ${"" /* Tailwind Forms overrides */}
-    border-none
-    p-0
-    focus:ring-0
+    p-inputtext
+    p-component
+    p-filled
   `,
   prefixIcon: `
     text-$colorTemperature-600

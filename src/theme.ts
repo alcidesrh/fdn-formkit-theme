@@ -109,7 +109,7 @@ export default createTheme({
     },
     accentColor: {
       editor: "color",
-      value: "yellow",
+      value: "blue",
       scale: [
         "red",
         "orange",

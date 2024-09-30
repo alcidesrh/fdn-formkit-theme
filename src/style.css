@@ -1,7 +1,7 @@
 :root {
   --bg-color: #fafafa;
   --panel-bg-color: #fff;
-  --text-color: red; /* for debugging — red text means you're missing styles in your theme */
+  /* --text-color: red; for debugging — red text means you're missing styles in your theme */
   --border-color: #eaeaea;
   --panel-border-color: rgb(226, 226, 226);
   --headline-color: #000;
@@ -11,7 +11,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: var(--text-color);
+  /* color: var(--text-color); */
   background-color: var(--bg-color);
 
   font-synthesis: none;
